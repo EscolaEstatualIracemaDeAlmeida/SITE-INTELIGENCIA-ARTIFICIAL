@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inteligência Artificial</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <span class="material-symbols-outlined" id="menu" onclick="clique()">
+                    menu
+                    </span>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#aplicacoes">Aplicações</a></li>
+                <li><a href="#futuro">Futuro</a></li>
+                <li><a href="#exemplos">Exemplos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            
+        </nav>
+        <!--MENU QUANDO APERTAR O BOTAO-->
+        <ul id="menuclique">
+            <li><a id="opcmenu" href="#sobre">Sobre</a></li>
+                <li><a id="opcmenu" href="#aplicacoes">Aplicações</a></li>
+                <li><a id="opcmenu" href="#futuro">Futuro</a></li>
+                <li><a id="opcmenu" href="#exemplos">Exemplos</a></li>
+                <li><a id="opcmenu" href="#contato">Contato</a></li>
+        </ul>
+    </header>
+
+
+    <section id="principal">
+        <div class="content">
+            <h1>O Fascinante Mundo da Inteligência Artificial</h1>
+            <p>A inteligência artificial está transformando o mundo em que vivemos. Ela está presente em muitas áreas do nosso dia a dia, e seu impacto só tende a crescer.</p>
+            <button id="interativoBtn">Descubra Mais</button>
+        </div>
+    </section>
+
+
+    <section id="sobre">
+        <div class="content">
+            <h2>O que é Inteligência Artificial?</h2>
+            <p>A Inteligência Artificial (IA) é o campo da ciência da computação que visa criar máquinas capazes de realizar tarefas que, normalmente, exigiriam inteligência humana. Essas tarefas incluem reconhecimento de fala, aprendizado, resolução de problemas e até tomada de decisões.</p>
+        </div>
+    </section>
+
+
+    <section id="aplicacoes">
+        <div class="content">
+            <h2>Principais Aplicações da IA</h2>
+            <ul>
+                <li>Assistentes Virtuais (como Alexa, Siri)</li>
+                <li>Carros Autônomos</li>
+                <li>Saúde (diagnóstico de doenças)</li>
+                <li>Recomendações Personalizadas (como no Netflix)</li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section id="futuro">
+        <div class="content">
+            <h2>O Futuro da Inteligência Artificial</h2>
+            <p>A IA tem o potencial de transformar muitas indústrias, desde a medicina até a educação. No futuro, esperamos ver IA cada vez mais integrada ao nosso cotidiano, melhorando a eficiência e possibilitando novas soluções para problemas complexos.</p>
+        </div>
+    </section>
+
+    <section id="exemplos">
+        <div class="content">
+            <h2>Exemplos de sites que usam Inteligência Artificial</h2> 
+            <ol type="1">
+                <li><p><a href="https://chatgpt.com/" target="_blank">CHAT-GPT :</a> É um modelo de linguagem desenvolvida pela OpenAI que entende e gera texto de forma semelhante à comunicação humana. Ele pode responder perguntas, criar textos, explicar conceitos e ser usado em várias aplicações, como assintentes virtuais e chatbots</p></li>
+                <li><p><a href="https://stabledifffusion.com/tools/ai-image-generator" target="_blank">STABLE DIFFUSION :</a> É um modelo de geração de imagens baseado em inteligência artificial, que usa uma técnica chamada difusão para criar imagens realistas a partir de descrições textuais.</p></li>
+                <li><p><a href="https://gamma.app/" target="_blank">GAMMA.APP :</a> É uma plataforma online focada em criar apresentações de alta qualidade com o auxílio de inteligência artificial. Ele permite que os usuários criem apresentações de slides de forma mais rápida e eficiente, sem a necessidade de design ou habilidades técnicas avançadas.</p></li>
+            </ol>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="content">
+            <h2>Entre em Contato</h2>
+            <p>Gostou do conteúdo? Entre em contato conosco para saber mais sobre IA!</p>
+            <form>
+                <input type="text" placeholder="Seu nome" required>
+                <input type="email" placeholder="Seu email" required>
+                <textarea placeholder="Sua mensagem" required></textarea>
+                <button id="botao" type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Feito pelo 2DS2 - Desenvolvimento de Sistemas</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
